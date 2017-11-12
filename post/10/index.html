@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<script type="text/javascript">
+    var targetProtocol = "https:";
+    if (window.location.protocol != targetProtocol)
+      window.location.href = targetProtocol + window.location.href.substring(window.location.protocol.length);
+</script>
+<script>
+  var url = document.location.toString();
+　var arrUrl = url.split("//");
+　var start = arrUrl[1].indexOf("/");
+　var relUrl = arrUrl[1].substring(start);
+　if(relUrl.indexOf("?") != -1){
+　　relUrl = relUrl.split("?")[0];
+　}
+  window.location.href='/#'+relUrl;
+</script>
+</head>
+<body>
+</body>
+</html>
