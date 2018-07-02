@@ -1,0 +1,292 @@
+body,h1,h2,h3,h4,p,form,ol,ul {
+	margin: 0
+}
+
+ol,ul {
+	padding: 0
+}
+
+html,textarea,input,option,button {
+	font: 1.5em "PT Serif",\5FAE\8EDF\6B63\9ED1\9AD4,\5FAE\8F6F\96C5\9ED1,\534E\6587\7EC6\9ED1,Georgia,Times,serif;
+	color: #222
+}
+
+h1,h2,h3,h4 {
+	font-weight: 800
+}
+
+textarea:focus,input:focus {
+	outline: 0
+}
+
+::selection {
+	background: rgba(0,149,255,0.1)
+}
+
+ul {
+	list-style-type: none
+}
+
+a {
+	color: #333;
+	text-decoration: none
+}
+
+html {
+	overflow: auto;
+	overflow-y: scroll
+}
+
+img {
+	border: 0 none
+}
+
+.o {
+	overflow: hidden;
+	zoom: 1
+}
+
+.l {
+	float: left
+}
+
+.r {
+	float: right
+}
+
+.c:after {
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+* html .c {
+	height: 1%
+}
+
+
+body {
+	min-width: 980px
+}
+
+.h {
+	opacity: 0
+}
+
+#m {
+	max-width: 1200px;
+	margin: 0 auto
+}
+
+.loading {
+	padding: 200px 0;
+	text-align: center;
+	font-size: 3em;
+	color: #999
+}
+
+h1 {
+	font-size: 80px;
+	line-height: 140px;
+	padding: 50px 80px 0
+}
+
+h2 {
+	font-size: 60px
+}
+
+#h.nav {
+	width: 960px;
+	margin: 0 auto
+}
+
+.nav {
+	padding: 10px
+}
+
+.nav a {
+	float: left;
+	width: 120px;
+	/* padding-top: 90px; */
+	line-height: 66px;
+	text-align: center;
+	position: relative;
+	border-radius: 2em
+}
+
+.nav a i {
+	position: absolute;
+	top: 5px;
+	left: 10px
+}
+
+.nav a.a {
+	background: rgba(230,244,250,.5);
+	border-radius: .5em;
+	color: #B30;
+	font-size: 1.15em
+}
+
+.nav a.a i {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1)
+}
+
+.nav img{
+    display:block;
+    margin:0 auto;
+    }
+.nav li{
+    float:left;
+    width: 135px;
+}
+
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+	position: relative;
+	
+    display: inline-block;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+	position: absolute;
+	/* padding-top: 90px; */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+
+    display: block;
+}
+
+
+#M {
+	max-width: 1200px;
+	margin: 0 auto
+	
+}
+.item {
+	/* padding: 1em; */
+	max-width: 800px;
+    padding: 0 20px;
+    margin: 0 auto;
+	
+}
+
+.item li {
+	float: left;
+	position: relative;
+	
+}
+
+.item a {
+	border-radius: .7em;
+	height: 150px;
+	float: left
+}
+
+
+.item .device-item {
+	border-radius: .7em;
+	height: 200px;
+	float: left
+}
+
+.item-span {
+	font-size: 40px;
+	line-height: 150px;
+	padding: 0 60px 0 10px;
+	float: right
+}
+
+.item-mini {
+	font-size: 30px;
+	line-height: 100px;
+	padding: 0 60px 0 10px;
+	float: right
+}
+
+.item-about {
+	font-size: 70px;
+	line-height: 300px;
+	padding: 0 60px 0 100px;
+	float: right
+}
+
+.item-link {
+	font-size: 25px;
+	line-height: 60px;
+	padding: 0 60px 0 10px;
+	float: right
+}
+
+.item .hr {
+	display: block;
+	text-align: center;
+	height: 100px;
+	clear: both;
+	float: none
+}
+
+.item .linkhr {
+	display: block;
+	text-align: center;
+	/* height: 10px; */
+	clear: both;
+	float: none
+}
+
+.footer {
+    padding: 100px 0;
+    text-align: center;
+    font-size: 3em;
+    color: #999;
+}
+
+html::-webkit-scrollbar-track-piece {
+	background: #222
+}
+
+html::-webkit-scrollbar {
+	width: 8px;
+	height: 8px
+}
+
+html::-webkit-scrollbar-thumb {
+	height: 40px;
+	background-color: #999
+}
+
+html::-webkit-scrollbar-thumb:hover {
+	background-color: #AAA
+}
+
+a,i,.nav a span,#m #ds-reset textarea,.ds-comment-actions,#m #ds-thread #ds-reset li.ds-post,#ds-thread #ds-reset .ds-textarea-wrapper textarea,.ds-comment-actions,#m #ds-reset .ds-avatar img,.co img,.like,#r_vist li a img,#r_vist li p,#Sl,#S input,.photos .box,.DS-smile li,.photo .cover:before,.photo .cover:after,.cover,.cover img,.xiami {
+	transition: .3s ease
+}
+
+
+body,input,textarea,select,button {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: subpixel-antialiased
+}
+
+
